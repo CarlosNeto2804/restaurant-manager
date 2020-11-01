@@ -1,9 +1,9 @@
 import { RouteConfig } from "vue-router";
 const routes: Array<RouteConfig> = [
-  /* {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
-  }, */
+  {
+    path: "/categoria",
+    name: "Categoria",
+    component: () => import("./../app/category/Category.vue"),
+  },
 ];
 export default routes;
