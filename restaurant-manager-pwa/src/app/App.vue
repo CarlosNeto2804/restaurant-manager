@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import Vue from "vue";
-import CoreDrawer from "./components/CoreDrawer.vue";
-import CoreNavBar from "./components/CoreNavBar.vue";
+import CoreDrawer from "./components/core/CoreDrawer.vue";
+import CoreNavBar from "./components/core/CoreNavBar.vue";
 export default Vue.extend({
   name: "App",
   components: { CoreDrawer, CoreNavBar },

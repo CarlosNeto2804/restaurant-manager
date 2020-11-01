@@ -1,9 +1,9 @@
 import { RouteConfig } from "vue-router";
 const routes: Array<RouteConfig> = [
   {
-    path: "/categoria",
-    name: "Categoria",
-    component: () => import("./../app/category/Category.vue"),
+    path: "/",
+    name: "Página Inicial",
+    component: () => import("./../app/home/home.template.vue"), 
   },
 ];
-export default routes;
+export default routes; 
